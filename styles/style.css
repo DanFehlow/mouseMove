@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, #6ab7f5, #fff);
+  min-height: 100vh;
+}
+
+.image {
+  overflow: hidden;
+  overflow-y: hidden;
+  padding-left: 20rem;
+  padding-top: 3rem;
+}
+
+#dan-image {
+  width: 50rem;
+  height: 60rem;
+}
+
+.eye-left,
+.eye-right {
+  width: 7.2rem;
+  height: 5rem;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  top: 25rem;
+  margin-left: 15rem;
+  border: #000 solid 7px;
+}
+
+.eye-right {
+  top: 25rem;
+  margin-left: 25rem;
+  position: absolute;
+  background-color: white;
+  border: #000 solid 7px;
+}
+
+.inside-ball,
+.inside-ball-right {
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 20%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: rgb(40, 40, 222);
+  border: #000 solid 4px;
+}
